@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { OpenvpnInfraStack } from '../lib/openvpn-infra-stack';
 
 const app = new cdk.App();
-new OpenvpnInfraStack(app, 'OpenvpnInfraStack');
+new OpenvpnInfraStack(app, 'OpenVPN-INFRA');
